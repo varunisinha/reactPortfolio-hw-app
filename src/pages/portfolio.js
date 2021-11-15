@@ -47,7 +47,7 @@ class Portfolio extends Component {
     console.log(this.state.projects)
     if (this.state.projects) {
       var projects = this.state.projects.map(function (projects) {
-        var projectImage = '../images/' + projects.image;
+        var projectImage = 'images/img/' + projects.image;
 
         return (
           <div key={projects.title} className="columns portfolio-item">

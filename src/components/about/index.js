@@ -18,7 +18,7 @@ function ABOUT(props) {
           style={{ width: 300, paddingTop: 25 }}
         >
 
-          <img src="../images/profile.jpg" alt="img" width="250" height="225" id="Profile" />
+          <img src="images/img/profile.jpg" alt="img" width="250" height="225" id="Profile" />
           <h1>Varuni Sinha</h1>
         </div>
         <div className="card-body text-left " style={{ textAlign: 'justify' }}>
