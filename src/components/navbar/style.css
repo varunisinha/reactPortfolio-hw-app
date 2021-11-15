@@ -1,0 +1,17 @@
+.navbar-nav{
+  float: right !important;
+  width: 100%;
+  text-align: right !important;
+}
+
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+}
+
+.nav-item{
+  text-decoration: none;
+}
+
+.active{
+  text-decoration: none;
+}
