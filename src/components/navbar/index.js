@@ -34,7 +34,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <a
-              href="Varuni-Sinha-Resume.pdf"
+              href="images/Varuni-Sinha-Resume.pdf"
               className="nav-link">
               Download Resume
             </a>
