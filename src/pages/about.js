@@ -8,7 +8,7 @@ import "./style.css";
 //creating about function
 function About() {
   return (
-    <div style={{ backgroundColor: "black" }}>
+    <div id="about" style={{ backgroundColor: "black", marginTop: '100px' }}>
       <Jumbotron
         style={{ backgroundColor: "grey", textAlign: 'center' }}
       >

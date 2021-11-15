@@ -63,7 +63,7 @@ function Contact() {
   }
 
   return (
-    <div style={{ backgroundColor: "black", textAlign: 'center' }}>
+    <div id="contact" style={{ backgroundColor: "black", textAlign: 'center' }}>
       <Jumbotron
         style={{ backgroundColor: "grey" }}
       >

@@ -8,7 +8,7 @@ function Homepage() {
   return (
     <div style={{ backgroundColor: "black" }}>
       <img
-        src="../images/bg.jpg"
+        src="https://github.com/varunisinha/reactPortfolio-hw-app/blob/main/public/images/bg.jpg?raw=true"
         className="card-img-top"
         alt="IMG"
         width="300"

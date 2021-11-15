@@ -17,10 +17,10 @@ class App extends Component {
       <Router>
         <div style={{ backgroundColor: "#383737" }}>
           <Navbar />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/projects" component={Portfolio} />
+          <Home />
+          <About />
+          <Contact />
+          <Portfolio />
           <Footer />
         </div>
       </Router>

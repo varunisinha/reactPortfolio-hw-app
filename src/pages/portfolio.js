@@ -7,32 +7,32 @@ class Portfolio extends Component {
     projects: [
       {
         "title": " Live Chat App ",
-        "image": "1.png",
+        "image": "https://github.com/varunisinha/reactPortfolio-hw-app/blob/main/public/images/1.png?raw=true",
         "url": "  https://birds-of-a-feather-chat.herokuapp.com"
       },
       {
         "title": "Weather API",
-        "image": "2.png",
+        "image": "https://github.com/varunisinha/reactPortfolio-hw-app/blob/main/public/images/2.png?raw=true",
         "url": "https://varunisinha.github.io/weather-api-app/"
       },
       {
         "title": " Game Time",
-        "image": "3.png",
+        "image": "https://github.com/varunisinha/reactPortfolio-hw-app/blob/main/public/images/3.png?raw=true",
         "url": " https://varunisinha.github.io/game-time/"
       },
       {
         "title": "Password Generator",
-        "image": "4.png",
+        "image": "https://github.com/varunisinha/reactPortfolio-hw-app/blob/main/public/images/4.png?raw=true",
         "url": "https://varunisinha.github.io/passwordgenerator/"
       },
       {
         "title": "Coding Quiz",
-        "image": "5.png",
+        "image": "https://github.com/varunisinha/reactPortfolio-hw-app/blob/main/public/images/5.png?raw=true",
         "url": "https://varunisinha.github.io/coding-quiz/"
       },
       {
         "title": "Work Day Scheduler",
-        "image": "6.png",
+        "image": "https://github.com/varunisinha/reactPortfolio-hw-app/blob/main/public/images/6.png?raw=true",
         "url": "https://varunisinha.github.io/work-day-scheduler/"
       }
     ],
@@ -47,7 +47,7 @@ class Portfolio extends Component {
     console.log(this.state.projects)
     if (this.state.projects) {
       var projects = this.state.projects.map(function (projects) {
-        var projectImage = 'images/img/' + projects.image;
+        var projectImage = projects.image;
 
         return (
           <div key={projects.title} className="columns portfolio-item">
@@ -79,7 +79,7 @@ class Portfolio extends Component {
     }
 
     return (
-      <div style={{ backgroundColor: "black", textAlign: 'center' }}>
+      <div id="portfolio" style={{ backgroundColor: "black", textAlign: 'center' }}>
         <Jumbotron
           style={{ backgroundColor: "grey" }}
         >
